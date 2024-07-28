@@ -705,6 +705,7 @@ justify-content: space-between;
     }
     .plan{
         margin-bottom: 24px;
+        width: 200px;
     }
     .testimonials__row{
         justify-content: center;
@@ -783,6 +784,7 @@ justify-content: space-between;
     }
     .plan{
        margin-bottom: 24px; 
+       width: 450px;
     }
     .balloons__img{
         display: none;
