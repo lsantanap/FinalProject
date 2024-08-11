@@ -6,6 +6,7 @@
     <title>FinalProject</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/d781a64b62.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <section id="header">
     <nav>
@@ -35,14 +36,14 @@
                
                 
             </ul>
-            <button class="btn__menu">
+            <button class="btn__menu" onclick="openMenu()">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="menu___backdrop">
-                <button class="btn__menu btn__menu--close">
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                     <i class="fas fa-times"></i>
                 </button>
-                <ul>
+                <ul class="menu__links">
                     <li class="menu__list">
                         <a href="#" class="menu__link">Home</a>
                     </li>
@@ -59,7 +60,7 @@
                         <a href="mailto:lesliesantana2209@yahoo.com" class="menu__link">Contact</a>
                     </li>
                     <li class="menu__list">
-                        <a href="#" class="menu__link no__cursor">Signup</a>
+                        <a href="#" class="menu__link no__cursor">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -354,7 +355,7 @@
     <div class="testimonials__container">
         <div class="testimonials__row">
             <figure class="balloons__img">
-                <img src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" class="side__img" alt="">
+                <img src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" class="balloons" alt="">
             </figure>
             <div class="testimonials">
                 <h5><span class="purple">TESTIMONIALS</span></h5>
@@ -438,8 +439,8 @@
         </div>
         <div class="copyright__bar">
             <div class="elements">
-                <div class="logo__wrapper footer">
-                    <img src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+                <div class="logo__wrapper__footer">
+                    <img src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" class="img__logo"alt="">
                     <h1 class="footer__title-copyright">Treact</h1>
                 </div>
             
