@@ -913,6 +913,9 @@ justify-content: space-between;
 }
 /* SMALL PHONES, LARGE PHONES */
 @media (max-width:550px){
+    .logo__wrapper{
+        width: 100%;
+    }
 
     
     .email{
@@ -924,7 +927,7 @@ justify-content: space-between;
      }
      .get__started{
          position:absolute;
-         transform: translateY(110%);
+         transform: translateY(110%) translateX(30%)
          margin-bottom: 20%;
      }
     .row__landing{
