@@ -96,6 +96,7 @@ ul{
     text-align: center;
     border: none;
     color: #6515ff;
+    display:none
  
 }
 .menu__backdrop{
@@ -310,13 +311,13 @@ h5{
 .img__wrapper__side--img{
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 45%;
     border: 0.3px solid #7583956a;
 
     
 }
 .side__img{
-    width: 100%;
+    width: 90%;
 }
 
 .btn__wrapper{
@@ -382,7 +383,7 @@ h5{
   
 }
 .img__wrapper--ipad{
-    width: 60%;
+    width: 40%;
 }
 .img--ipad{
 width: 100%
@@ -439,7 +440,7 @@ width: 100%
    
 }
 .img__wrapper-container{
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -829,35 +830,38 @@ justify-content: space-between;
     .footer--nav__links{
         display: flex;
         flex-wrap: wrap;
-    }
-    .footer__nav__links{
-     width: 25%;
-    }
-    .elements{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-   .logo__wrapper {
-        margin: 0;
-        overflow: hidden;
-        width: 30%;
-   }
-    .footer__title-copyright {
-        align-self: center;
-    }
-    
+        justify-content: center;
+        }
+        .footer__nav__links{
+            width: 25%;
+           }
+           .elements{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: space-around;
+           }
+          .logo__wrapper {
+               margin: 0;
+               overflow: hidden;
+               width: 100%;
+          }
+           .footer__title-copyright {
+               align-self: center;
+           }
+           
+       
+       
+           .copyright{
+               margin-bottom: 24px
+           }
+           
 
-
-    .copyright{
-        margin-bottom: 24px
     }
     
     
 
    
-}
 @media (max-width:920px){
     .nav__container{
         padding: none;
@@ -867,6 +871,9 @@ justify-content: space-between;
     }
     .get__started{
         transform: translateY(110%) translateX(60%);
+    }
+    .btn__menu{
+        display:block;
     }
 }
 @media(max-width:852px){
@@ -880,6 +887,7 @@ justify-content: space-between;
     .service{
         width: 75%;
     }
+    
     
 }
 @media (max-width:768px){
